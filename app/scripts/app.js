@@ -2,5 +2,6 @@
 
 angular
 .module('twentyfourtyeightApp', [])
-.controller('GameController', function() {
+.controller('GameController', function(GameManager) {
+  this.game = GameManager;
 });
