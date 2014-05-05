@@ -1,3 +1,6 @@
 'use strict';
 
-angular.module('twentyfourtyeightApp', [])
+angular
+.module('twentyfourtyeightApp', [])
+.controller('GameController', function() {
+});
