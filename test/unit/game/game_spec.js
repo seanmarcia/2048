@@ -3,6 +3,12 @@ describe('Game module', function() {
     // Inject the Game module into this test
     beforeEach(module('Game'));
 
+    var gameManager;
+
+    beforeEach(inject(funection(GameManager){
+      gameManager = GameManager;
+    }));
+
     // Our tests will go below here
   });
 });
